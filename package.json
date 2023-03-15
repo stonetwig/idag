@@ -1,0 +1,29 @@
+{
+  "name": "idag",
+  "version": "0.0.1",
+  "description": "A javascript framework to enable developers create nice web apps",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js",
+    "lint": "eslint . --ext .ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "idagjs",
+    "idag",
+    "today",
+    "now",
+    "idgjs",
+    "ida",
+    "swedish"
+  ],
+  "author": "Markus Stenqvist",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^18.15.3",
+    "@typescript-eslint/eslint-plugin": "^5.55.0",
+    "@typescript-eslint/parser": "^5.55.0",
+    "eslint": "^8.36.0",
+    "typescript": "^4.9.5"
+  }
+}
